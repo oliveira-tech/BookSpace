@@ -12,6 +12,7 @@
 
 .header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
@@ -27,14 +28,32 @@
 }
 
 .header-nav a {
-  padding: 16px 0px;
   display: inline-block;
   font-size: 18px;
+  position: relative;
 }
 
-.header-cadastro a {
-  padding: 16px 0px;
+.header-nav a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: #000000;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-nav a:hover::after {
+  width: 100%;
+}
+
+.header-cadastro > a {
+  padding: 16px 10px;
   display: inline-block;
+}
+.header-cadastro > a:hover {
+  background-color: #f7f7f7;
 }
 
 .header-cadastro {
@@ -57,6 +76,10 @@
   cursor: pointer;
 }
 
+.btn:hover {
+  background: linear-gradient(0deg, #00a3d9 17.5%, #0bafcc 89%);
+}
+
 .header-nav,
 .header-cadastro {
   font-family: "Poppins";
@@ -64,4 +87,26 @@
   font-weight: 500;
   font-size: 18px;
   color: #000000;
+}
+
+@media (max-width: 850px) {
+  .header-nav {
+    display: none;
+  }
+  .header-cadastro {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .header-cadastro {
+    gap: 15px;
+  }
+  .header-cadastro > a {
+    padding: 8px 8px;
+  }
 }
