@@ -1,0 +1,43 @@
+@import "./style/reset.css";
+
+.aviso {
+  background-color: #00738c;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  max-width: 1450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-nav {
+  display: flex;
+  gap: 60px;
+}
+
+.header-nav a {
+  padding: 16px 0px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.header-cadastro a {
+  padding: 16px 0px;
+  display: inline-block;
+}
+
+.header-cadastro {
+  display: flex;
+  gap: 60px;
+}
