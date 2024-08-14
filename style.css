@@ -78,6 +78,22 @@ nav {
   background-color: #f7f7f7;
 }
 
+.btn-1 {
+  border: none;
+  padding: 0px 32px;
+  background: linear-gradient(0deg, #00abe4 0%, #0bb8d6 89%);
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #001f26;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
 .btn {
   border: none;
   padding: 10px 32px;
@@ -88,9 +104,10 @@ nav {
   font-size: 18px;
   line-height: 27px;
   color: #001f26;
+  cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover, .btn-1:hover {
   background: linear-gradient(0deg, #00a3d9 17.5%, #0bafcc 89%);
 }
 
