@@ -13,7 +13,7 @@
   line-height: 20px;
 }
 
-.header-nav {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,6 +22,8 @@
   box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
+  height: 108px;
+  position: relative;
 }
 
 .header-logo {
@@ -31,19 +33,23 @@
 .header-links {
   display: flex;
   gap: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 nav {
   display: inline-block;
 }
 
-.header-nav a {
+.header-links a {
   display: inline-block;
   font-size: 18px;
   position: relative;
 }
 
-.header-nav a::after {
+.header-links a::after {
   content: "";
   display: block;
   height: 2px;
@@ -54,12 +60,13 @@ nav {
   position: absolute;
 }
 
-.header-nav a:hover::after {
+.header a:hover::after {
   width: 100%;
 }
 
 .header-cadastro {
-  display: block;
+  display: flex;
+  gap: 60px;
 }
 
 .header-cadastro > a {
@@ -71,35 +78,28 @@ nav {
   background-color: #f7f7f7;
 }
 
-
-
 .btn {
-  background: linear-gradient(0deg, #00abe4 0%, #0bb8d6 89%);
   border: none;
-  color: black;
   padding: 10px 32px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
+  background: linear-gradient(0deg, #00abe4 0%, #0bb8d6 89%);
   border-radius: 5px;
-  cursor: pointer;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #001f26;
 }
 
 .btn:hover {
   background: linear-gradient(0deg, #00a3d9 17.5%, #0bafcc 89%);
 }
 
-.header-nav,
+.header,
 .header-cadastro {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-
-  color: #000000;
 }
 
 .container {
@@ -111,8 +111,6 @@ nav {
   padding-left: 200px;
   padding-bottom: 106px;
 }
-
-
 
 .beneficios h1 {
   font-size: 2.5em;
@@ -128,17 +126,9 @@ nav {
 
 .beneficios ul li {
   margin-bottom: 15px;
-  font-size: 24px;  /* Aumentado para visibilidade */
+  font-size: 26px; /* Aumentado para visibilidade */
   color: #555;
 }
-
-
-
-
-
-
-
-
 
 @media (max-width: 850px) {
   .header-nav {
