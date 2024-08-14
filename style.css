@@ -7,7 +7,10 @@
   align-items: center;
   justify-content: center;
   color: #fff;
+  font-family: "Roboto";
+  font-weight: 400;
   font-size: 18px;
+  line-height: 20px;
 }
 
 .header {
@@ -56,6 +59,7 @@
 .header-cadastro > a {
   padding: 16px 10px;
   display: inline-block;
+  border-radius: 5px;
 }
 .header-cadastro > a:hover {
   background-color: #f7f7f7;
@@ -89,8 +93,9 @@
 .header-cadastro {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
+
   color: #000000;
 }
 
