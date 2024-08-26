@@ -172,15 +172,18 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .btn {
     padding: 5px 10px;
     font-size: 14px;
   }
   .header-cadastro {
-    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
   }
-  .header-cadastro > a {
+  .header-cadastro  a {
     padding: 8px 8px;
+    align-self: center;
   }
 }
