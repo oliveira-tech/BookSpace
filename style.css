@@ -92,7 +92,8 @@
 
 .btn {
   border: none;
-  padding: 10px 32px;
+  width: 182px;
+  height: 50px;
   background: linear-gradient(0deg, #00abe4 0%, #0bb8d6 89%);
   border-radius: 5px;
   font-family: "Poppins";
