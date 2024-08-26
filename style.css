@@ -39,10 +39,6 @@
   transform: translate(-50%, -50%);
 }
 
-nav {
-  display: inline-block;
-}
-
 .header-links a {
   display: inline-block;
   font-size: 18px;
@@ -107,7 +103,8 @@ nav {
   cursor: pointer;
 }
 
-.btn:hover, .btn-1:hover {
+.btn:hover,
+.btn-1:hover {
   background: linear-gradient(0deg, #00a3d9 17.5%, #0bafcc 89%);
 }
 
@@ -120,7 +117,8 @@ nav {
 }
 
 .container {
-  display: block;
+  background-image: url(/img/fotos/livro-fundo.jpg);
+  background-repeat: no-repeat;
   justify-content: space-between;
   align-items: center;
   background-color: #f4f4f4;
@@ -130,25 +128,43 @@ nav {
 }
 
 .beneficios h1 {
-  font-size: 2.5em;
-  color: #2a2a2a;
-  margin-bottom: 20px;
+  font-size: 48px;
+  font-family: "Crimson Pro";
+  color: #001f26;
+  margin-bottom: 30px;
+  font-weight: 400;
+  line-height: 53px;
 }
 
 .beneficios ul {
   list-style-type: none;
   padding: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .beneficios ul li {
-  margin-bottom: 15px;
-  font-size: 26px; /* Aumentado para visibilidade */
-  color: #555;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  font-family: "Crimson Text";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
 }
 
-@media (max-width: 850px) {
-  .header-nav {
+.beneficios ul li::before {
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 14px;
+  background-image: url(/img/icones/tick.svg);
+  color: #00abe4;
+  margin-right: 10px;
+}
+
+@media (max-width: 1230px) {
+  .header-links {
     display: none;
   }
   .header-cadastro {
