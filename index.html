@@ -22,9 +22,15 @@
       <div class="container-header">
         <div class="header">
           <div class="header-logo">
-            <a href="./"
-              ><img class="logo" src="./img/logo.svg" alt="BookSpace"
-            /></a>
+            <a href="./">
+              <picture>
+                <source
+                  srcset="./img/logo-mini.svg"
+                  media="(max-width: 600px)"
+                />
+                <img class="logo" src="./img/logo.svg" alt="BookSpace" />
+              </picture>
+            </a>
           </div>
           <nav aria-label="primaria">
             <ul class="header-links">
