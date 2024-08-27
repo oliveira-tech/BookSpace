@@ -163,6 +163,66 @@
   margin-right: 10px;
 }
 
+/* Container principal */
+.container-vantagens {
+  padding: 60px 0;
+}
+
+
+.section-vantagens {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-vantagens h1 {
+  font-family: "Crimson Pro", serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  color: #001f26;
+  margin-bottom: 60px;
+}
+
+
+.vantagens {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px; 
+}
+
+
+.vantagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+  padding: 20px;
+    background-color: #fff; /* Cor de fundo para cada bloco */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para destaque */
+}
+
+
+.vantagem h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #001f26;
+  margin: 10px 0px;
+}
+
+.vantagem p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #707070;
+  margin-top: auto; /* Faz com que o texto seja empurrado para o final */
+}
+
 @media (max-width: 1230px) {
   .header-links {
     display: none;
