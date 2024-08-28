@@ -168,7 +168,6 @@
   padding: 60px 0;
 }
 
-
 .section-vantagens {
   text-align: center;
   max-width: 1200px;
@@ -184,13 +183,11 @@
   margin-bottom: 60px;
 }
 
-
 .vantagens {
   display: flex;
   justify-content: space-between;
-  gap: 40px; 
+  gap: 40px;
 }
-
 
 .vantagem {
   display: flex;
@@ -199,11 +196,10 @@
   text-align: center;
   flex: 1;
   padding: 20px;
-    background-color: #fff; /* Cor de fundo para cada bloco */
+  background-color: #fff; /* Cor de fundo para cada bloco */
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para destaque */
 }
-
 
 .vantagem h2 {
   font-family: "Poppins", sans-serif;
@@ -222,6 +218,60 @@
   color: #707070;
   margin-top: auto; /* Faz com que o texto seja empurrado para o final */
 }
+
+.container-quote {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 144px;
+  margin-top: 144px;
+  position: relative;
+  margin-bottom: 0px;
+  max-height: 100%;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+}
+
+.quote-svg {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 65px;
+}
+
+.aspas {
+  align-self: center;
+}
+
+.quote p {
+  font-family: "Crimson Pro";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 33px;
+  color: #001f26;
+  margin: 16px 0px;
+}
+
+.quote span {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #003e4d;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 284px;
+  object-fit: cover; 
+  z-index: -1;
+}
+
 
 @media (max-width: 1230px) {
   .header-links {
