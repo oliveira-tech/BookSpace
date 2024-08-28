@@ -371,6 +371,13 @@
   }
 }
 
+@media (max-width: 1378px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+  }
+}
 
 @media (max-width: 730px) {
   .header {
