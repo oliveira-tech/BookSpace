@@ -30,6 +30,10 @@
   display: inline-block;
 }
 
+.logo {
+  margin-top: 9px;
+}
+
 .header-links {
   display: flex;
   gap: 60px;
@@ -172,18 +176,52 @@
   }
 }
 
+
+@media (max-width: 730px) {
+  .header {
+    padding: 0 60px;
+  }
+}
+
+
 @media (max-width: 600px) {
+  
+  .logo {
+    height: 34px;
+    width: 67px;
+  }
+
+  .header {
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 60px;
+  }
+  
+  .header-logo {
+    margin-left: 10px;
+    margin-top: 4px;
+  }
+  
   .btn {
     padding: 5px 10px;
     font-size: 14px;
   }
+
+  .btn-1 {
+    font-size: 16px;
+    padding: 0px 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+
   .header-cadastro {
     display: flex;
-    flex-direction: column;
     gap: 2px;
   }
   .header-cadastro  a {
     padding: 8px 8px;
     align-self: center;
+    margin-top: 5px;
   }
 }
