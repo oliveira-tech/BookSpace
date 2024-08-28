@@ -424,7 +424,7 @@
 
   .container {
     background-image: none;
-    background-color: #DADBDD;
+    background: linear-gradient(to bottom, #DADADC, #FFFFFF);
     padding-left: 0;
     display: flex;
     justify-content: center;
