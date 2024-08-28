@@ -121,7 +121,6 @@
   background-repeat: no-repeat;
   justify-content: space-between;
   align-items: center;
-  background-color: #f4f4f4;
   padding-top: 120px;
   padding-left: 200px;
   padding-bottom: 106px;
@@ -273,7 +272,6 @@
 
 .feature-container {
   display: flex;
-  background-color: #f7f7f7;
   justify-content: space-between;
   align-items: center;
   padding: 120px 118px 120px 75px;
@@ -321,6 +319,43 @@
   font-size: 24px;
   line-height: 28px;
   color: #707070;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #f7f7f7;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.redes {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.015em;
+  color: #2e2e2e;
+}
+
+.footer a {
+  color: #00378f;
+}
+
+.creditos p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.015em;
+  color: #000;
 }
 
 @media (max-width: 1230px) {
