@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M18 17C19.7934 15.9626 21 14.2208 21 12C21 8.68629 18.3137 6 15 6C12.1032 6 9.06238 7.76966 8.5 10.5" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M8.30379 10.5C7.77702 10.1826 7.15983 10 6.5 10C4.567 10 3 11.567 3 13.5C3 15.433 4.567 17 6.5 17H18" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16.5 13.5L13 10" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
-<path d="M16.5 10L13 13.5" stroke="#333333" stroke-width="2" stroke-linecap="round"/>
+<svg width="77" height="49" viewBox="0 0 77 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M62.8215 47.4024C70.1018 43.1206 75 35.9313 75 26.765C75 13.0876 64.0949 2 50.6429 2C38.8833 2 26.5391 9.30426 24.2561 20.5737" stroke="#2E2E2E" stroke-opacity="0.99" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.7197 20.1228C21.5625 18.7908 19.035 18.0244 16.3329 18.0244C8.41706 18.0244 2 24.6009 2 32.7134C2 40.826 8.41706 47.4025 16.3329 47.4025H63.4268" stroke="#2E2E2E" stroke-opacity="0.99" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M57.1951 33.1586L42.9512 18.0244" stroke="#2E2E2E" stroke-opacity="0.99" stroke-width="3" stroke-linecap="round"/>
+<path d="M57.1951 18.0244L42.9512 33.1586" stroke="#2E2E2E" stroke-opacity="0.99" stroke-width="3" stroke-linecap="round"/>
 </svg>
