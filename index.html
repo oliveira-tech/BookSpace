@@ -24,12 +24,11 @@
           <div class="header-logo">
             <a href="./">
               <picture>
-                <source
-                  srcset="./img/logo-mini.svg"
-                  media="(max-width: 600px)"
-                />
-                <img class="logo" src="./img/logo.svg" alt="BookSpace" />
-              </picture>
+                <!-- Imagem para telas menores que 600px -->
+                <source srcset="./img/logo-mini.svg" media="(max-width: 600px)">
+                
+                <!-- Imagem padrão -->
+                <img class="logo" src="./img/logo.svg" alt="BookSpace">
             </a>
           </div>
           <nav aria-label="primaria">
@@ -39,7 +38,7 @@
               <li><a href="#inovacoes">Inovações</a></li>
             </ul>
           </nav>
-          <div>
+          <div class="container-cadastro">
             <ul class="header-cadastro">
               <a href="">Login</a>
               <button class="btn-1">Assine agora</button>
