@@ -394,7 +394,7 @@
   
   .header-logo {
     margin-left: 10px;
-    margin-top: 4px;
+    margin-top: -12px;
   }
   
   .btn {
@@ -421,4 +421,13 @@
     padding: 8px 8px;
     align-self: center;
   }
+
+  .container {
+    background-image: none;
+    background-color: #DADBDD;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
 }
